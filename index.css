@@ -1,49 +1,55 @@
 #container
 {
+	
 	margin: 1%;
 	padding: 1%;
-	border-style: solid;
 	border-width:0.5%;
-	border-color: #7dde71;
-	background: #000000;
-	width: 96%;
-	height: 100%;
+	width: 86%;
+	height: 90%;
 	position:absolute;
 	top:0%;
 	left:0%;
+	background-image: url("images/picture.png")
 }
 
 #lside
 {
     margin: 1%;
 	padding: 1%;
-	border-style: solid;
 	border-width:0.5%;
-	border-color: #3e8d01;
-	background: #FFFFFF;
 	width: 45.75%;
 	height: 40%;
 	position:absolute;
-	top:33%;
-	right:50%;
+	bottom:15%;
+	left:60%;
 
 
 }
+#lside3
 
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 22%;
+	height: 35%;
+	position:absolute;
+	bottom:15%;
+	left:30%;
+
+
+}
 
 #rside
 {
     margin: 1%;
 	padding: 1%;
-	border-style: solid;
 	border-width:0.5%;
-	border-color: #3e8d01;
-	background: #FFFFFF;
-	width: 45.75%;
-	height: 40%;
+	width: 60%;
+	height: 5%;
 	position:absolute;
-	top:33%;
-	right:0%;
+	bottom:50%;
+	left:30%;
 
 
 }
@@ -52,15 +58,13 @@
 {
     margin: 1%;
 	padding: 1%;
-	border-style: solid;
 	border-width:0.5%;
-	border-color: #3e8d01;
-	background: #FFFFFF;
-	width: 96%;
-	height: 40%;
+	color: #FFFFFF;
+	width: 25%;
+	height: 65%;
 	position:absolute;
-	top:33%;
-	right:0%;
+	top:15%;
+	left:0%;
 
 
 }
@@ -72,15 +76,14 @@
 {
     margin: 1%;
 	padding: 1%;
-	border-style: solid;
 	border-width:0.5%;
-	border-color: #FFFFFF;
-	background: #000000;
-	width: 95.5%;
+	width: 110%;
 	height: 5%;
 	position:absolute;
 	top:1%;
-	left:0%;
+	left:-1%;
+	box-shadow: 0 3px 21px 3px #333;
+	z-index: 999;
 
 
 }
@@ -91,8 +94,7 @@ ul.topnav
 		list-style-type: none; 
 		margin: -0.5%;
 		padding: 0;
-		overflow: hidden;
-		background-color: #000000; 
+		overflow: hidden; 
 	}
 
 ul.topnav li 
@@ -107,7 +109,7 @@ ul.topnav li a
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none; 
-		color: #f0ff00; 
+		color: #FFFFFF; 
 		font-family: Verdana,Geneva,sans-serif;
 		font-style: normal;
 		font-size: 1.5vw;
@@ -129,11 +131,100 @@ ul.topnav li a:hover:not(.active)
 ul.topnav li a.active 
 	{
 		
-		background-color: #000000;
-		color: #f0ff00; 
+	
+		color: #FFFFFF; 
 		font-family: Verdana,Geneva,sans-serif;
 		font-style: normal;
 		font-size:1.5vw;
 		font-weight: bold;
 		
 	}
+	
+	
+#bareacopyright
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:-1%;
+
+
+}
+#bareacopyright1
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:13%;
+
+
+}
+#bareacopyright2
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:6%;
+
+
+}
+#bareacopyright3
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:20%;
+
+
+}
+#bareacopyright4
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:27%;
+
+
+}
+#bareacopyright5
+
+{
+    margin: 1%;
+	padding: 1%;
+	border-width:0.5%;
+	width: 5%;
+	height: 5%;
+	position:absolute;
+	bottom:0%;
+	left:34%;
+
+
+}
+
+
+
